@@ -65,3 +65,4 @@ python bruteworm infect -vvv -t 192.168.1.135 -d pass /path/to/dictionary -i tro
 ### TODOs
 * Make worm standalone so it can replicate itself more easily - as opposed to only acting as a dropper
 * Add support for remotely executing copied files using scheduled tasks or other API
+* Add support for user enumeration
