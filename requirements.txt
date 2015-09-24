@@ -1,0 +1,5 @@
+impacket==0.9.13
+passlib==1.6.5
+pyasn1==0.1.8
+pycrypto==2.6.1
+python-nmap==0.4.3
