@@ -22,7 +22,7 @@ usage: bruteworm [-h] [-i INPUT] [-o OUTPUT] [-d DICTIONARY DICTIONARY] [-b]
                  {build,scan,infect}
 
 positional arguments:
-  {build,scan,infect}   interaction with specified hosts/subnet victims
+  {build,scan,infect}                   interaction with specified hosts/subnet victims
 
 optional arguments:
   -h, --help                            show this help message and exit
