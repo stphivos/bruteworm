@@ -25,27 +25,20 @@ positional arguments:
   {build,scan,infect}   interaction with specified hosts/subnet victims
 
 optional arguments:
-  -h, --help            show this help message and exit
-  -i INPUT, --input INPUT
-                        source file path
-  -o OUTPUT, --output OUTPUT
-                        destination file path
-  -d DICTIONARY DICTIONARY, --dictionary DICTIONARY DICTIONARY
-                        attack of either type pass|hash + dictionary file path
-  -b, --bruteforce      use brute force for password guessing
-  -c COUNT, --count COUNT
-                        number of hashes to generate
-  -n MIN, --min MIN     minimum number characters in password
-  -x MAX, --max MAX     maximum number characters in password
-  -a ALPHABET, --alphabet ALPHABET
-                        alphabet of allowed characters without spaces
-  -t TARGET, --target TARGET
-                        target hosts/subnet e.g. 192.168.2.10, 192.168.2.0/24
-  -p PORT, --port PORT  target port e.g. 139
-  -u USER, --user USER  target username to use for authentication
-  -s SHARE, --share SHARE
-                        target share name to drop malware
-  -v, --verbosity
+  -h, --help                            show this help message and exit
+  -i INPUT, --input INPUT               source file path
+  -o OUTPUT, --output OUTPUT            destination file path
+  -d FILE PATH, --dictionary HASH PATH  attack of either type pass|hash + dictionary file path
+  -b, --bruteforce                      use brute force for password guessing
+  -c COUNT, --count COUNT               number of hashes to generate
+  -n MIN, --min MIN                     minimum number characters in password
+  -x MAX, --max MAX                     maximum number characters in password
+  -a ALPHABET, --alphabet ALPHABET      alphabet of allowed characters without spaces
+  -t TARGET, --target TARGET            target hosts/subnet e.g. 192.168.2.10, 192.168.2.0/24
+  -p PORT, --port PORT                  target port e.g. 139
+  -u USER, --user USER                  target username to use for authentication
+  -s SHARE, --share SHARE               target share name to drop malware
+  -v, --verbosity                       console has 3 verbosity levels
 ```
 
 ### Examples
