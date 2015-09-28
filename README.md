@@ -11,7 +11,7 @@ Currently limited to making connections with SMB directly over TCP (445) and SMB
 
 ### Features
 * Generates LM/NTLM hash lists from dictionary words or variable length permutations of specified alphabets
-* Scans for hosts with SMB running (forwards to Nmap) and performs OS detection upon session negotiation
+* Scans for hosts with SMB running (forwards to Nmap) and performs OS detection upon session negotiation using impacket network library
 * Copies files from local host to public or administrative shares when correct password found
 
 ### Usage
